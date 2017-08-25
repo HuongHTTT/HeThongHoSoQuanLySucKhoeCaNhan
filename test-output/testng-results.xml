@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="126672" started-at="2017-07-06T08:43:10Z" finished-at="2017-07-06T08:45:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="126672" started-at="2017-07-06T08:43:10Z" finished-at="2017-07-06T08:45:17Z">
+      <class name="testQuanLyHoGiaDinh.TestThemMoiNhanKhau">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testQuanLyHoGiaDinh.TestThemMoiNhanKhau@52a86356]" name="setup" is-config="true" duration-ms="19593" started-at="2017-07-06T15:43:10Z" finished-at="2017-07-06T15:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="themMoiNhanKhau()[pri:0, instance:testQuanLyHoGiaDinh.TestThemMoiNhanKhau@52a86356]" name="themMoiNhanKhau" duration-ms="23275" started-at="2017-07-06T15:43:30Z" finished-at="2017-07-06T15:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themMoiNhanKhau -->
+        <test-method status="PASS" signature="soSanh()[pri:1, instance:testQuanLyHoGiaDinh.TestThemMoiNhanKhau@52a86356]" name="soSanh" duration-ms="20894" started-at="2017-07-06T15:43:53Z" finished-at="2017-07-06T15:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soSanh -->
+        <test-method status="PASS" signature="themMoiNhanKhau2()[pri:2, instance:testQuanLyHoGiaDinh.TestThemMoiNhanKhau@52a86356]" name="themMoiNhanKhau2" duration-ms="22709" started-at="2017-07-06T15:44:14Z" finished-at="2017-07-06T15:44:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themMoiNhanKhau2 -->
+        <test-method status="PASS" signature="soSanh2()[pri:3, instance:testQuanLyHoGiaDinh.TestThemMoiNhanKhau@52a86356]" name="soSanh2" duration-ms="19222" started-at="2017-07-06T15:44:36Z" finished-at="2017-07-06T15:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- soSanh2 -->
+        <test-method status="PASS" signature="themMoiNhanKhau4()[pri:4, instance:testQuanLyHoGiaDinh.TestThemMoiNhanKhau@52a86356]" name="themMoiNhanKhau4" duration-ms="20950" started-at="2017-07-06T15:44:56Z" finished-at="2017-07-06T15:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- themMoiNhanKhau4 -->
+      </class> <!-- testQuanLyHoGiaDinh.TestThemMoiNhanKhau -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

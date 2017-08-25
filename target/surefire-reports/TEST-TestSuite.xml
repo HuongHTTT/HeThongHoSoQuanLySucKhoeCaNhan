@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="23" failures="7" name="TestSuite" time="54.712" errors="0" skipped="16">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Dev\DemoJava\ProjectHospital"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Dev\DemoJava\ProjectHospital"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ICT-OS~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="D:\Java_Huong\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_101\bin;D:\Java_Huong\apache-maven-3.5.0\bin;;."/>
+    <property name="maven.conf" value="D:\Java_Huong\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="D:\Java_Huong\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\ict-os-36"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ict-os-36"/>
+    <property name="java.class.path" value="D:\Java_Huong\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Java_Huong\apache-maven-3.5.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="testng.TestMaYTCN" name="setup" time="6.862">
+    <failure message="Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@6ce139a4, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@6ce139a4, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@6ce139a4, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@6ce139a4, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:259)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:247)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:242)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:238)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at testng.TestMaYTCN.setup(TestMaYTCN.java:24)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@11028347
+</system-out>
+    <system-err>1499330781255	geckodriver	INFO	Listening on 127.0.0.1:4057
+Jul 06, 2017 3:46:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+1499330781538	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args [&quot;-marionette&quot;]
+1499330783409	addons.manager	ERROR	startup failed: [Exception... &quot;Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]&quot;  nsresult: &quot;0x80070057 (NS_ERROR_ILLEGAL_VALUE)&quot;  location: &quot;JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70&quot;  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 &lt; FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 &lt; validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 &lt; startup()@resource://gre/modules/AddonManager.jsm:837 &lt; startup()@resource://gre/modules/AddonManager.jsm:3145 &lt; observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1499330786355	Marionette	INFO	Listening on port 60400
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+Jul 06, 2017 3:46:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to original OSS JSON Wire Protocol.
+Jul 06, 2017 3:46:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to straight W3C remote end connection
+</system-err>
+  </testcase>
+  <testcase classname="testng.TestMaYTCN" name="nhapMaYTCN1KTu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testQuanLyHoSoSucKhoe.TestLapHoSoSucKhoe" name="setup" time="8.443">
+    <failure message="Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@2bfc268b, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@2bfc268b, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@2bfc268b, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@2bfc268b, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:259)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:247)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:242)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:238)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at testQuanLyHoSoSucKhoe.TestLapHoSoSucKhoe.setup(TestLapHoSoSucKhoe.java:24)
+</failure>
+    <system-err>1499330789007	geckodriver	INFO	Listening on 127.0.0.1:5077
+Jul 06, 2017 3:46:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+1499330789604	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args [&quot;-marionette&quot;]
+1499330791421	addons.manager	ERROR	startup fJavaScript error: resource://gre/modules/AddonManager.jsmailed: [Exception... ,&quot; line 1657: NS_CERROoR_NOT_INITIALIZED: AddonManager is not initialized
+mponent returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]&quot;  nsresult: &quot;0x80070057 (NS_ERROR_ILLEGAL_VALUE)&quot;  location: &quot;JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70&quot;  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 &lt; FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 &lt; validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 &lt; startup()@resource://gre/modules/AddonManager.jsm:837 &lt; startup()@resource://gre/modules/AddonManager.jsm:3145 &lt; observe()@resource://gre/components/addonManager.js:65
+1499330794867	Marionette	INFO	Listening on port 60428
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+Jul 06, 2017 3:46:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to original OSS JSON Wire Protocol.
+Jul 06, 2017 3:46:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to straight W3C remote end connection
+</system-err>
+  </testcase>
+  <testcase classname="testQuanLyHoSoSucKhoe.TestLapHoSoSucKhoe" name="lapHoSoSK" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testQuanLyHoSoSucKhoe.TestLichSuKhamBenh" name="setup" time="10.759">
+    <failure message="Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@1ba9117e, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@1ba9117e, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@1ba9117e, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@1ba9117e, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:259)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:247)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:242)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:238)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at testQuanLyHoSoSucKhoe.TestLichSuKhamBenh.setup(TestLichSuKhamBenh.java:23)
+</failure>
+    <system-err>1499330795483	geckodriver	INFO	Listening on 127.0.0.1:47990
+Jul 06, 2017 3:46:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+1499330795986	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args [&quot;-marionette&quot;]
+JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+1499330800159	Marionette	INFO	Ceased listening
+1499330800600	Marionette	INFO	Ceased listening
+1499330802550	addons.manaJger	ERROR	startup failed: [Exception... &quot;Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]&quot;  nsresult: &quot;0x80070057 (NS_ERROR_ILLEGAL_VALUE)&quot;  location: &quot;JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70&quot;  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 &lt; FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 &lt; validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 &lt; startup()@resource://gre/modules/AddonManager.jsm:837 &lt; startup()@resource://gre/modules/AddonManager.jsm:3145 &lt; observe()@resource://gre/components/addonManager.js:65
+avaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1499330805725	Marionette	INFO	Listening on port 60457
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+Jul 06, 2017 3:46:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to original OSS JSON Wire Protocol.
+Jul 06, 2017 3:46:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to straight W3C remote end connection
+</system-err>
+  </testcase>
+  <testcase classname="testQuanLyHoSoSucKhoe.TestLichSuKhamBenh" name="lichSuKham" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testQuanLyHoGiaDinh.TestThemMoiHoKhau" name="setup" time="6.387">
+    <failure message="Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@cad498c, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@cad498c, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@cad498c, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@cad498c, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:259)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:247)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:242)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:238)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at testQuanLyHoGiaDinh.TestThemMoiHoKhau.setup(TestThemMoiHoKhau.java:24)
+</failure>
+    <system-err>1499330806261	geckodriver	INFO	Listening on 127.0.0.1:32036
+Jul 06, 2017 3:46:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+1499330806730	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args [&quot;-marionette&quot;]
+1499330809049	addons.manager	ERROR	startup failed: [Exception.Java.. &quot;Component returned failure code: 0x8Script error: resource://gre/modules/AddonManager.jsm0070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]&quot;  nsresult: &quot;0x80070057 (NS_ERROR_ILLEGAL_VALUE)&quot;  location: &quot;JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtil, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+s_getDir :: line 70&quot;  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 &lt; FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 &lt; validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 &lt; startup()@resource://gre/modules/AddonManager.jsm:837 &lt; startup()@resource://gre/modules/AddonManager.jsm:3145 &lt; observe()@resource://gre/components/addonManager.js:65
+1499330812227	Marionette	INFO	Listening on port 60487
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+Jul 06, 2017 3:46:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to original OSS JSON Wire Protocol.
+Jul 06, 2017 3:46:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to straight W3C remote end connection
+</system-err>
+  </testcase>
+  <testcase classname="testQuanLyHoGiaDinh.TestThemMoiHoKhau" name="themMoiHoKhau" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="testQuanLyHoGiaDinh.TestThemMoiNhanKhau" name="setup" time="8.46">
+    <failure message="Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@4e096385, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@4e096385, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@4e096385, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@4e096385, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:259)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:247)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:242)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:238)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at testQuanLyHoGiaDinh.TestThemMoiNhanKhau.setup(TestThemMoiNhanKhau.java:23)
+</failure>
+    <system-err>1499330812628	geckodriver	INFO	Listening on 127.0.0.1:21753
+Jul 06, 2017 3:46:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+1499330813129	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args [&quot;-marionette&quot;]
+1499330814290	addonsJavaScrip.manager	ERROR	startup failed: [Exception... &quot;Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]&quot;  nsresult: &quot;0x80070057 (NS_ERROR_ILLEGAL_VALUE)&quot;  location: &quot;JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70&quot;  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 &lt; FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 &lt; validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 &lt; startup()@resource://gre/modules/AddonManager.jsm:837 &lt; startup()@resource://gre/modules/AddonManager.jsm:3145 &lt; observe()@resource://gre/components/addonManager.js:65
+t error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1499330819558	Marionette	INFO	Listening on port 60519
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+Jul 06, 2017 3:47:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to original OSS JSON Wire Protocol.
+Jul 06, 2017 3:47:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to straight W3C remote end connection
+</system-err>
+  </testcase>
+  <testcase classname="testQuanLyHoGiaDinh.TestThemMoiNhanKhau" name="themMoiNhanKhau" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testQuanLyHoGiaDinh.TestThemNKVaoHK" name="setup" time="6.679">
+    <failure message="Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@1b6e1eff, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@1b6e1eff, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@1b6e1eff, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@1b6e1eff, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:259)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:247)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:242)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:238)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at testQuanLyHoGiaDinh.TestThemNKVaoHK.setup(TestThemNKVaoHK.java:24)
+</failure>
+    <system-err>1499330821075	geckodriver	INFO	Listening on 127.0.0.1:19646
+Jul 06, 2017 3:47:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+1499330821586	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args [&quot;-marionette&quot;]
+1499330823039	addons.manager	ERROR	startup failed: [Exception... &quot;Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]&quot;  nsresult: &quot;0x80070057 (NS_ERROR_ILLEGAL_VALUE)&quot;  location: &quot;JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70&quot;  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 &lt; FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 &lt; validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 &lt; startup()@resource://gre/modules/JavaScript error: resource://gre/modules/AddonManager.jsmAddonManager.jsm:837 &lt; startup()@resource://gre/modules/AddonManager.jsm:3145 &lt; observe()@resource://gre/components/addonManager.js:65
+, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1499330827324	Marionette	INFO	Listening on port 60555
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+Jul 06, 2017 3:47:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to original OSS JSON Wire Protocol.
+Jul 06, 2017 3:47:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to straight W3C remote end connection
+</system-err>
+  </testcase>
+  <testcase classname="testQuanLyHoGiaDinh.TestThemNKVaoHK" name="themNK" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testQuanLyHoSoSucKhoe.TestTiemChung" name="setup" time="7.121">
+    <failure message="Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@550ee7e5, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@550ee7e5, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{marionette=true, firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@550ee7e5, browserName=firefox, moz:firefoxOptions=org.openqa.selenium.firefox.FirefoxOptions@550ee7e5, version=, platform=ANY}], required capabilities = Capabilities [{}]
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DONTV4-OS36&apos;, ip: &apos;10.61.187.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:91)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:128)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:259)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:247)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:242)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:238)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at testQuanLyHoSoSucKhoe.TestTiemChung.setup(TestTiemChung.java:24)
+</failure>
+    <system-err>1499330827755	geckodriver	INFO	Listening on 127.0.0.1:3083
+Jul 06, 2017 3:47:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel&apos;s Law holds true on the remote end
+1499330828270	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args [&quot;-marionette&quot;]
+1499330830017	addons.manager	ERROR	startup failed: [ExceptioJavaScript error: resource://gre/modules/AddonManager.jsmn... &quot;Component retu, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+rned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]&quot;  nsresult: &quot;0x80070057 (NS_ERROR_ILLEGAL_VALUE)&quot;  location: &quot;JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70&quot;  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 &lt; FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 &lt; validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 &lt; startup()@resource://gre/modules/AddonManager.jsm:837 &lt; startup()@resource://gre/modules/AddonManager.jsm:3145 &lt; observe()@resource://gre/components/addonManager.js:65
+1499330834280	Marionette	INFO	Listening on port 60589
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+Jul 06, 2017 3:47:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to original OSS JSON Wire Protocol.
+Jul 06, 2017 3:47:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to straight W3C remote end connection
+</system-err>
+  </testcase>
+  <testcase classname="testQuanLyHoSoSucKhoe.TestTiemChung" name="testTiemChung" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testQuanLyHoSoSucKhoe.TestLichSuKhamBenh" name="soSanhLichSuKham" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testng.TestMaYTCN" name="nhapMaYTCN14KTu" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testQuanLyHoGiaDinh.TestThemMoiNhanKhau" name="soSanh" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testng.TestMaYTCN" name="nhapMaYTCNBoTrong" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testQuanLyHoGiaDinh.TestThemMoiHoKhau" name="themMoiNhanKhau" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testQuanLyHoGiaDinh.TestThemMoiNhanKhau" name="themMoiNhanKhau2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testng.TestMaYTCN" name="nhapMaYTCNValid" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testQuanLyHoGiaDinh.TestThemMoiNhanKhau" name="soSanh2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="testQuanLyHoGiaDinh.TestThemMoiNhanKhau" name="themMoiNhanKhau4" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

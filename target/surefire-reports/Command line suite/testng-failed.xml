@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="testQuanLyHoGiaDinh.TestThemNKVaoHK">
+        <methods>
+          <include name="themNK"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testQuanLyHoGiaDinh.TestThemNKVaoHK -->
+      <class name="testQuanLyHoGiaDinh.TestThemMoiNhanKhau">
+        <methods>
+          <include name="setup"/>
+          <include name="soSanh"/>
+          <include name="themMoiNhanKhau4"/>
+          <include name="soSanh2"/>
+          <include name="themMoiNhanKhau"/>
+          <include name="themMoiNhanKhau2"/>
+        </methods>
+      </class> <!-- testQuanLyHoGiaDinh.TestThemMoiNhanKhau -->
+      <class name="testQuanLyHoGiaDinh.TestThemMoiHoKhau">
+        <methods>
+          <include name="themMoiHoKhau"/>
+          <include name="themMoiNhanKhau"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testQuanLyHoGiaDinh.TestThemMoiHoKhau -->
+      <class name="testQuanLyHoSoSucKhoe.TestLichSuKhamBenh">
+        <methods>
+          <include name="soSanhLichSuKham"/>
+          <include name="lichSuKham"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testQuanLyHoSoSucKhoe.TestLichSuKhamBenh -->
+      <class name="testng.TestMaYTCN">
+        <methods>
+          <include name="nhapMaYTCNBoTrong"/>
+          <include name="nhapMaYTCNValid"/>
+          <include name="nhapMaYTCN14KTu"/>
+          <include name="nhapMaYTCN1KTu"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testng.TestMaYTCN -->
+      <class name="testQuanLyHoSoSucKhoe.TestTiemChung">
+        <methods>
+          <include name="setup"/>
+          <include name="testTiemChung"/>
+        </methods>
+      </class> <!-- testQuanLyHoSoSucKhoe.TestTiemChung -->
+      <class name="testQuanLyHoSoSucKhoe.TestLapHoSoSucKhoe">
+        <methods>
+          <include name="setup"/>
+          <include name="lapHoSoSK"/>
+        </methods>
+      </class> <!-- testQuanLyHoSoSucKhoe.TestLapHoSoSucKhoe -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
